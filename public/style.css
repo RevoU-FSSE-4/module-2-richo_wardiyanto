@@ -9,8 +9,18 @@ body {
         background-image: linear-gradient(3deg, rgba(116, 192, 67, 0.3) 30%, rgba(61, 160, 182, 0.6) 100%),
         url("https://solana.com/social/solana.jpg");
         background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
         justify-content: center;
     }
+
+    @media screen and (max-width: 768px) {
+        .container-section {
+            width: 100%;
+            height: 35em; /* Adjust height for smaller screens */
+        }
+      }
 
     /* CSS for main section first */
 
