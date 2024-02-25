@@ -1,0 +1,182 @@
+body {
+    margin: 0px;
+    transition: background-color 0.5s;
+}
+
+    /* CSS for main section first */
+
+    .container-section-first {
+        font-family: Arial, sans-serif;
+        padding: 2rem;
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .navbar {
+        background-color: #333;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .night-mode button {
+        background-color: transparent;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+
+    .night-button:hover{
+        background-color: transparent;
+        color: #8f8a8a;
+    }
+
+    .dark-mode {
+        background-color: #333; /* dark mode background color */
+        color: #fff; /* dark mode text color */
+    }
+    
+    .nav-li {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    nav ul li {
+        float: left;
+    }
+
+    nav ul li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+    }
+    
+    .solana-address {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+
+    #resultMessage, #balanceMessage{
+        font-size: 1.1rem;
+        color: #333;
+        margin-top: 1rem;
+    }
+
+    /* CSS for main section second */
+
+    .container-section-second {
+        font-family: Arial, sans-serif;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+    
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    
+    .card {
+        width: 220px;
+        background-color: #f0f0f0;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding-top: 10px;
+        transition: transform 0.3s ease;
+        text-align: center;
+    }
+    
+    .card img {
+        width: 80%;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+    
+    .card-text {
+        padding: 2px; /* Remove padding */
+        margin: 5px;
+        justify-content: center;
+    }
+
+    .card-text-p {
+        text-align: center;
+        font-size: 1.1rem;
+        color: #333;
+        
+    }
+    
+    
+
+    /* CSS for main section third */
+
+    .container-section-third {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        padding: 20px;
+    }
+    
+    #contact {
+        margin: 0 auto;
+        max-width: 600px;
+    }
+    
+    #contact h2 {
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    #contact p {
+        color: #333;
+        margin-bottom: 20px;
+    }
+    
+    .name {
+        width: 80%;
+        margin-bottom: 10px;
+        color: #333;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    
+    .container-check input[type="checkbox"] {
+        margin-right: 5px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+    
+    button {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    button:hover {
+        background-color: #0056b3;
+    }

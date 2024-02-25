@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Check Solana Address on Mainnet</title>
+<script src="https://unpkg.com/@solana/web3.js@latest/lib/index.iife.min.js"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<script src="scripts.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-li">
+            <li><a href="#home">Home</a></li>
+            <li><a href="https://explorer.solana.com/" target="_blank">Explore Solana</a></li>
+            <li><a href="https://solana.com/docs" target="_blank">Solana Documentation</a></li>
+        </ul>
+        <div class="night-mode">
+            <button id="toggleButton" class="night-button">
+                <span class="material-symbols-outlined">
+                    dark_mode
+                </span>
+            </button>
+        </div>
+    </nav>
+    <main>
+        <section class="container-section-first">
+            <div>
+                <h1>Check Solana Address on Mainnet</h1>
+                <p>Enter a Solana address to check if it exists on the mainnet:</p>
+                <input type="text" id="solanaAddress" class="solana-address" placeholder="Enter Solana address">
+                <button onclick="checkAddress()">Check Address</button>
+                <p id="resultMessage"></p>
+                <p id="balanceMessage"></p>
+            </div>
+        </section>
+        <section class="container-section-second">
+            <h1 style="text-align: center;">Ecosystem Solana</h1>
+            <div class="card-container">
+                <div class="card-container">
+                    <div class="card">
+                        <img class="coin-img" src="https://upload.wikimedia.org/wikipedia/en/b/b9/Solana_logo.png" alt="Solana coin ">
+                        <div class="card-text">
+                            <p class="card-text-p">
+                                Solana is a high-performance blockchain platform designed for decentralized applications (dApps) and crypto-currencies. It aims to provide scalability, speed, and security necessary for mass adoption of decentralized applications and crypto-currencies.</div>
+                            </p>
+                    </div>
+                    <div class="card-container">
+                        <div class="card">
+                        <img class="coin-img" src="https://ethereum-cours.com/images/pyth.png" alt="Pyth coin">
+                        <div class="card-text">
+                            <p class="card-text-p">Pyth is a decentralized financial market data oracle built on the Solana blockchain. An oracle, in the context of blockchain technology, is a trusted source of information that feeds external data into smart contracts.</p>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="card">
+                        <img class="coin-img" src="https://s2.coinmarketcap.com/static/img/coins/64x64/8526.png" alt="Raydium coin">
+                        <div class="card-text">
+                            <p class="card-text-p">Raydium is a decentralized finance (DeFi) protocol built on the Solana blockchain. It serves as an automated market maker (AMM) and liquidity provider, enabling users to trade, swap, and provide liquidity for various crypto-assets. </p>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <section class="container-section-third">
+            <div id="contact">
+                <h2>Contact Us</h2>
+                <input type="email" id="userEmail" class="name" placeholder="Your Email"><br>
+                <textarea id="message" class="name" placeholder="Message..."></textarea><br>
+                <label class="container-check" for="check">
+                    <input type="checkbox" id="check">I agree that the above details are correct
+                </label>
+                <p>If you have any questions or feedback, please contact us at <a href="mailto:you@example.com">you@example.com</a>.</p>
+                <button onclick="sendEmail()">Send Message</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
