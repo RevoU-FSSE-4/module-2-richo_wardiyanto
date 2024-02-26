@@ -12,4 +12,4 @@ Solana is a high-performance blockchain platform designed to support decentraliz
 
 ## Link
 
-[Sol-check](https://module-1-richo-wardiyanto-richo-wardiyanto.vercel.app/) - Visit the Sol-check website.
+[Sol-check](https://module-2-richo-wardiyanto.vercel.app) - Visit the Sol-check website.
